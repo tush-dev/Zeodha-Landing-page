@@ -1,34 +1,37 @@
-<div style="display:flex; box-shadow: 2px 1px 2px #eee; justify-content: space-between; padding-left: 100px;padding-right: 100px; ">
-    <div style="cursor: pointer;">
-    <img src="logo.svg" height="18px" style="padding-top: 15px;"/>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zerodha</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; color:#424242; }
+    .navbar { display:flex; box-shadow: 2px 1px 2px #eee; justify-content: space-between; padding: 15px 100px; }
+    .nav-links { display:flex; gap: 15px; }
+    .nav-item { padding: 15px; cursor: pointer; }
+    .hero-image { display: flex; justify-content: center; max-height: 45vh; margin-bottom: 40px; }
+    .hero-title { display: flex; justify-content: center; font-weight: 500; color: #424242; }
+    .hero-subtitle { display: flex; justify-content: center; font-family: serif; font-size: 1.5em; color: #424242; margin-top: 12px; }
+    .cta { display:flex; justify-content: center; margin: 30px 0; }
+    .cta button { background-color: #387ed1; color: white; padding: 10px 30px; border-radius: 5px; border: none; cursor:pointer; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div style="cursor:pointer;"><img src="logo.svg" height="18" style="padding-top:15px;" alt="logo"></div>
+    <div class="nav-links">
+      <div class="nav-item">Signup</div>
+      <div class="nav-item">About</div>
+      <div class="nav-item">Products</div>
+      <div class="nav-item">Pricing</div>
+      <div class="nav-item">Support</div>
     </div>
-   <div style="display:flex; ">
-        <div style="padding: 15px;cursor: pointer">Signup </div>
-        <div style="padding: 15px;cursor: pointer">About 
-        </div>
-        <div style="padding: 15px;cursor: pointer">Products </div>
-        <div style="padding: 15px;cursor: pointer">Pricing </div>
-        <div style="padding: 15px;cursor: pointer">Support </div>
-   </div>  
-
-</div> 
-<br></br>
-
-<div style="display: flex; justify-content: center; max-height: 45vh ; margin-bottom: 40px;">
-    <img src="landing (1).svg" />
-</div>
-
-<div style="display: flex; justify-content: center; font-weight: 500; color: #424242;">
-    <h1>Invest in everything</h1> 
-</div> 
-
-<div style="display: flex; font-color :#424242; justify-content: center;font-family: serif; font-size:  1.5em;: 400; ">
-    Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
-</div>
-<br></br>
-<div style="display:flex; justify-content: center; color: white;">
-<div style="background-color: #387ed1;padding-left: 30px;padding-right: 30px;padding-top: 10px;padding-bottom: 10px; cursor: pointer; border-radius: 5px;">
-    Sign up now
-</div >
-</div>
+  </div>
+  <div class="hero-image">
+    <img src="landing (1).svg" alt="landing illustration" />
+  </div>
+  <div class="hero-title"><h1>Invest in everything</h1></div>
+  <div class="hero-subtitle">Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</div>
+  <div class="cta"><button>Sign up now</button></div>
+</body>
+</html>
